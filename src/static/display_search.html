@@ -1,0 +1,9 @@
+{% extends 'home.html' %}
+ 
+{% block container %}
+  <div>
+    {% for document in documents %}
+        <p>{{ document }}</p>
+    {% endfor %}
+  </div>
+{% endblock %}

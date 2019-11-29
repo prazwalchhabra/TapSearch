@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+ 
+{% block container %}
+<form action="/insert/" method="POST" enctype="multipart/form-data">
+    <textarea rows="4" cols="50" name="index">
+        Write Document Here
+    </textarea>    
+    <input type="submit">
+</form>
+{% endblock %}
